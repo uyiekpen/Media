@@ -1,0 +1,15 @@
+.parentFooter{
+
+}
+
+.subParentFooter{
+  height: 40px;
+  width: 100vw;
+  background-color:black;
+}
+
+.pTag{
+  color:white;
+  text-align: center;
+  font-family: Poppins;
+}

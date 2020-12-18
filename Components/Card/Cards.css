@@ -1,0 +1,100 @@
+.parentCardDiv{
+
+}
+
+.subParentCardDiv{
+
+}
+
+.allCardsDiv{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  padding-bottom: 0px 50px;
+  font-family: Poppins;
+  color:black
+}
+
+.cardNo1{
+  height: 550px;
+  width: 270px;
+  box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.2), 0 6px 20px 0 rgba(0, 0, 0,
+0.19);
+text-align: center;
+margin-bottom: 50px;
+
+
+}
+
+.cardNo2{
+  height: 550px;
+  width: 270px;
+  box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.2), 0 6px 20px 0 rgba(0, 0, 0,
+0.19);
+text-align: center;
+margin-bottom: 60px;
+
+}
+
+.cardNo3{
+  height: 550px;
+  width: 270px;
+  box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.2), 0 6px 20px 0 rgba(0, 0, 0,
+0.19);
+text-align: center;
+margin-bottom: 50px;
+
+
+}
+.cardNo4{
+  height: 550px;
+  width: 270px;
+  box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.2), 0 6px 20px 0 rgba(0, 0, 0,
+0.19);
+text-align: center;
+
+}
+.link{
+  text-transform: none;
+}
+
+.cardImg{
+  height: 300px;
+  width: 270px;
+  object-fit: cover;
+}
+
+.title{
+  color: #1081f3;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.subTitle{
+  color: black;
+
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -10px;
+  text-decoration: none;
+  color: black;
+}
+
+.date{
+  margin-top: -7px;
+  color: gray;
+  text-decoration: none;
+}
+
+.cardNo1:hover{
+  background-color: rgb(237, 237, 237);
+  cursor: pointer;
+}
+
+.link1{
+  text-decoration: none;
+  color: black;
+}

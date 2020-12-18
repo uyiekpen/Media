@@ -1,0 +1,77 @@
+.parentDiv1 {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subParentDiv1 {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height:60px;
+  background-color:black;
+  
+  color: white;
+}
+.link1{
+  text-decoration: none;
+  color: white;
+}
+
+.theHeader1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;  width: 100vw;
+
+  justify-content: space-around;
+    align-items: center;
+    
+}
+
+.navDiv1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.nav1 {
+  font-size: 22px;
+  font-weight: lighter;
+  font-family: Poppins;
+}
+.Menu{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  color: white;
+}
+.Menu{
+  display: None;
+
+}
+@media screen and (max-width: 760px) {
+  .Menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .navDiv1 {
+    display: none;
+  }
+}
+.side{
+  color: white;
+  display: none;
+  text-decoration:none;
+  position: relative;
+  display: flex;
+  height:100px;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 20px;
+}

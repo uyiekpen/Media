@@ -1,0 +1,96 @@
+.parentDiv{
+  
+}
+
+.subParentDiv{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../Img/vv.jpeg);
+  background-size: cover;
+  background-position: sticky;
+  font-family: Poppins;
+  
+}
+
+.theHeader{
+  display: flex;
+  width: 100vw;
+  height: 80px;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.logoDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.navDiv{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  
+}
+
+.nav{
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.MenuIcon{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  height: 80px
+}
+.MenuIcon{
+  display: None;
+
+}
+.SideHeader{
+  color: white;
+  display: none;
+  text-decoration:none;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+@media screen and (max-width: 760px) {
+  .SideHeader {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 760px) {
+  .MenuIcon {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .navDiv {
+    display: none;
+  }
+}
+
+.link{
+  text-decoration: none;
+}
+
+.osas{
+  margin-left: 60px;
+}
+
+.ppp{
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
